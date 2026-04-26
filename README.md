@@ -87,7 +87,7 @@
 
 ## 🌍 Overview
 
-**ReliefNet AI+** is an AI-powered disaster response command center prototype built for the **Google Developer Groups (GDG) Hackathon**. It provides emergency coordinators with real-time situational awareness across **30 disaster zones** in India, combining live weather data, seismic monitoring, and Google Gemini AI to deliver actionable intelligence during crisis events.
+**ReliefNet AI+** is an AI-powered disaster response command center prototype built for the **Google Solution Challenge 2026**. It provides emergency coordinators with real-time situational awareness across **30 disaster zones** in India, combining live weather data, seismic monitoring, and Google Gemini AI to deliver actionable intelligence during crisis events.
 
 The system goes beyond simple dashboards — it implements a **mathematical priority scoring engine**, **72-hour predictive forecasting** using real weather APIs, and **Gemini 2.0 Flash** for natural-language threat briefings and strategic recommendations.
 
