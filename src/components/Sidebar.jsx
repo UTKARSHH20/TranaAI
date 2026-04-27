@@ -34,7 +34,7 @@ const Sidebar = ({ page, setPage, crisisMode }) => {
           <Activity size={17} style={{ color: crisisMode ? "#f87171" : "#60a5fa" }} />
         </div>
         <span className="rj" style={{ fontWeight: 700, fontSize: 18, color: "#f0f4fa", letterSpacing: "0.02em" }}>
-          ReliefNet <span style={{ color: crisisMode ? "#ef4444" : "#3b82f6" }}>AI+</span>
+          Trana<span style={{ color: crisisMode ? "#ef4444" : "#3b82f6" }}>AI</span>
         </span>
       </div>
       <nav className="flex-1 px-3 py-4" style={{ overflowY: "auto" }}>

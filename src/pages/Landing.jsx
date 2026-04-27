@@ -58,7 +58,7 @@ const Landing = ({ onLaunch }) => {
           <Activity size={20} style={{ color: "#60a5fa" }} />
         </div>
         <span className="rj" style={{ fontWeight: 700, fontSize: 22, color: "#f0f4fa", letterSpacing: ".02em" }}>
-          ReliefNet <span style={{ color: "#3b82f6" }}>AI+</span>
+          Trana<span style={{ color: "#3b82f6" }}>AI</span>
         </span>
       </div>
 

@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/ReliefNet-AI%2B-2563eb?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMiAxMiAxOCAxMiAxNSAyMSA5IDMgNiAxMiAyIDEyIi8+PC9zdmc+" alt="ReliefNet AI+" />
+  <img src="https://img.shields.io/badge/TranaAI-2563eb?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMiAxMiAxOCAxMiAxNSAyMSA5IDMgNiAxMiAyIDEyIi8+PC9zdmc+" alt="TranaAI" />
   <img src="https://img.shields.io/badge/Built_With-Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 </p>
 
-<h1 align="center">🛡️ ReliefNet AI+</h1>
+<h1 align="center">🛡️ TranaAI</h1>
 
 <p align="center">
   <strong>AI-Powered Disaster Response Command Center for India</strong>
@@ -19,17 +19,17 @@
 ---
 
 <p align="center">
-  <a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">
+  <a href="https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app">
     <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_It_Now-22c55e?style=for-the-badge&logoColor=white" alt="Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/UTKARSHH20/reliefnet-ai-plus">
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/UTKARSHH20/trana-ai">
     <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
   </a>
 </p>
 
 <p align="center">
-  👉 <strong><a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app</a></strong> 👈
+  👉 <strong><a href="https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app">https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app</a></strong> 👈
 </p>
 
 ---
@@ -40,7 +40,7 @@
 
 ### Quick Start (Online Demo)
 
-1. **Open** → [https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app](https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app)
+1. **Open** → [https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app](https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app)
 2. **Click** → "Launch Dashboard" on the landing page
 3. **Explore** → Navigate the Command Center, run AI Allocation, view the map
 4. **Unlock AI** → Paste your free [Gemini API key](https://aistudio.google.com/) into the AI Priority or Prediction panels
@@ -87,7 +87,7 @@
 
 ## 🌍 Overview
 
-**ReliefNet AI+** is an AI-powered disaster response command center prototype built for the **Google Solution Challenge 2026**. It provides emergency coordinators with real-time situational awareness across **30 disaster zones** in India, combining live weather data, seismic monitoring, and Google Gemini AI to deliver actionable intelligence during crisis events.
+**TranaAI** is an AI-powered disaster response command center prototype built for the **Google Solution Challenge 2026**. It provides emergency coordinators with real-time situational awareness across **30 disaster zones** in India, combining live weather data, seismic monitoring, and Google Gemini AI to deliver actionable intelligence during crisis events.
 
 The system goes beyond simple dashboards — it implements a **mathematical priority scoring engine**, **72-hour predictive forecasting** using real weather APIs, and **Gemini 2.0 Flash** for natural-language threat briefings and strategic recommendations.
 
@@ -101,7 +101,7 @@ During natural disasters in India, emergency coordinators face:
 
 ### 💡 Our Solution
 
-ReliefNet AI+ addresses these challenges with:
+TranaAI addresses these challenges with:
 - A **unified command center** that aggregates real-time data into a single operational view
 - **AI-driven allocation** that mathematically scores zones and deploys volunteers optimally
 - **72-hour predictive forecasting** using live weather and seismic data
@@ -186,7 +186,7 @@ ReliefNet AI+ addresses these challenges with:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      ReliefNet AI+                          │
+│                      TranaAI                          │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  ┌──────────┐  ┌──────────────┐  ┌────────────────────┐    │
@@ -243,8 +243,8 @@ ReliefNet AI+ addresses these challenges with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/UTKARSHH20/reliefnet-ai-plus.git
-cd reliefnet-ai-plus
+git clone https://github.com/UTKARSHH20/trana-ai.git
+cd trana-ai
 
 # Install dependencies
 pnpm install
@@ -273,7 +273,7 @@ The app will be available at `http://localhost:5173/`
 ## 📁 Project Structure
 
 ```
-reliefnet-ai-plus/
+trana-ai/
 ├── index.html                  # Entry HTML with SEO meta tags
 ├── package.json                # Dependencies & scripts
 ├── tsconfig.json               # TypeScript configuration
@@ -450,11 +450,11 @@ Uses the **Haversine formula** for geographic distance calculations between citi
 
 ## 🌐 Deploy to Netlify
 
-Deploy your own instance of ReliefNet AI+ to Netlify in under 5 minutes:
+Deploy your own instance of TranaAI to Netlify in under 5 minutes:
 
 ### Option 1: One-Click Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/UTKARSHH20/reliefnet-ai-plus)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/UTKARSHH20/trana-ai)
 
 ### Option 2: Manual Deployment
 
@@ -492,13 +492,13 @@ netlify deploy --prod --dir=dist
 
 ### Post-Deploy Checklist
 
-- [ ] Update the live demo URL in this README (replace `reliefnet-ai.netlify.app` with your actual Netlify URL)
+- [ ] Update the live demo URL in this README (replace `TranaAI-ai.netlify.app` with your actual Netlify URL)
 - [ ] Update the GitHub repo URL in the Deploy button link
 - [ ] Verify Google Maps loads correctly (may need to add Netlify domain to Maps API allowed referrers)
 - [ ] Test Gemini API key entry in-app
 - [ ] Share the link with judges! 🎉
 
-> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app` in this README with your actual Netlify deployment URL.
+> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app` in this README with your actual Netlify deployment URL.
 
 ---
 

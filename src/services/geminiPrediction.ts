@@ -5,7 +5,7 @@ export async function generatePredictionReasoning(
   riskResults: CityRiskScore[],
   apiKey: string
 ): Promise<GeminiPredictionResponse> {
-  const systemPrompt = `You are ReliefNet's AI Prediction Engine for India disaster management. You analyze weather data and risk scores to generate actionable pre-disaster briefings for field commanders. Be precise, use numbers, avoid vague language. Always mention timeframe.`;
+  const systemPrompt = `You are TranaAI's Prediction Engine for India disaster management. You analyze weather data and risk scores to generate actionable pre-disaster briefings for field commanders. Be precise, use numbers, avoid vague language. Always mention timeframe.`;
 
   const userPrompt = `Based on 72-hour forecast data, here are risk scores for Indian cities:
 ${JSON.stringify(riskResults, null, 2)}
