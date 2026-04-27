@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <a href="https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app">
+  <a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">
     <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_It_Now-22c55e?style=for-the-badge&logoColor=white" alt="Live Demo" />
   </a>
   &nbsp;&nbsp;
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  👉 <strong><a href="https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app">https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app</a></strong> 👈
+  👉 <strong><a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app</a></strong> 👈
 </p>
 
 ---
@@ -40,7 +40,7 @@
 
 ### Quick Start (Online Demo)
 
-1. **Open** → [https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app](https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app)
+1. **Open** → [https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app](https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app)
 2. **Click** → "Launch Dashboard" on the landing page
 3. **Explore** → Navigate the Command Center, run AI Allocation, view the map
 4. **Unlock AI** → Paste your free [Gemini API key](https://aistudio.google.com/) into the AI Priority or Prediction panels
@@ -492,13 +492,13 @@ netlify deploy --prod --dir=dist
 
 ### Post-Deploy Checklist
 
-- [ ] Update the live demo URL in this README (replace `TranaAI-ai.netlify.app` with your actual Netlify URL)
+- [x] ~~Update the live demo URL in this README~~ ✅
 - [ ] Update the GitHub repo URL in the Deploy button link
 - [ ] Verify Google Maps loads correctly (may need to add Netlify domain to Maps API allowed referrers)
 - [ ] Test Gemini API key entry in-app
 - [ ] Share the link with judges! 🎉
 
-> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69ee5006ca3b7f532b770689--TranaAI01.netlify.app` in this README with your actual Netlify deployment URL.
+> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app` in this README with your actual Netlify deployment URL.
 
 ---
 
@@ -558,7 +558,7 @@ This is a hackathon prototype. Contributions are welcome for:
 
 ## 📄 License
 
-This project is built for the **** and is available under the [MIT License](LICENSE).
+This project is built for the **Google Solution Challenge 2026** and is available under the [MIT License](LICENSE).
 
 ---
 
