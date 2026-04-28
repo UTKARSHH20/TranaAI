@@ -8,7 +8,7 @@ import { callGemini, buildPrompt, formatGeminiOutput } from "../utils/gemini";
 import { useStore } from "../store";
 
 const AIPriority = () => {
-  const { zones, weights } = useStore();
+  const { zones, weights, updateWeight } = useStore();
   const [apiKey, setApiKey] = useState("");
   const [showKey, setShowKey] = useState(false);
   const [geminiResponse, setGeminiResponse] = useState(null);
@@ -131,7 +131,7 @@ const AIPriority = () => {
                 </span>
               </div>
               <input type="range" min={0} max={1} step={0.05} value={weights[key]}
-                onChange={e => {}} style={{ width: "100%", marginBottom: 4 }} />
+                onChange={e => updateWeight(key, parseFloat(e.target.value))} style={{ width: "100%", marginBottom: 4 }} />
               <p style={{ fontSize: 11, color: "#4b5563" }}>{desc}</p>
             </div>
           ))}

@@ -20,6 +20,10 @@ export const useStore = create((set, get) => ({
   stateHistory: [],
   isReplaying: false,
 
+  updateWeight: (key, value) => set((state) => ({
+    weights: { ...state.weights, [key]: value }
+  })),
+
   setZones: (updater) => set((state) => {
     const newZones = typeof updater === 'function' ? updater(state.zones) : updater;
     const crisis = newZones.some(z => z.severity >= 8.5);
