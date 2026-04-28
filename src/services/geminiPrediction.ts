@@ -2,38 +2,24 @@ import type { CityRiskScore, GeminiPredictionResponse } from '../types/predictio
 // @ts-ignore
 import { callGemini, DEMO_MODE } from '../utils/gemini';
 
-const MOCK_PREDICTION_RESPONSE: GeminiPredictionResponse = {
-  topThreats: [
-    {
-      city: "Mumbai",
-      threat: "flood",
-      reasoning: "Forecast indicates 140mm precipitation combined with high coastal vulnerability. Probability of severe inundation in low-lying areas.",
-      action: "Pre-deploy water rescue units to Sector 4 and elevate critical medical supplies.",
-      confidence: 92
-    },
-    {
-      city: "Chennai",
-      threat: "cyclone",
-      reasoning: "Sustained wind speeds exceeding 65km/h with storm codes present. Infrastructure damage highly probable.",
-      action: "Secure coastal infrastructure and initiate early warning protocols for fishing communities.",
-      confidence: 85
-    },
-    {
-      city: "Patna",
-      threat: "flood",
-      reasoning: "Heavy upstream rainfall and 85% precipitation probability will push the Ganga river past danger marks.",
-      action: "Evacuate riverbank settlements and mobilize sandbagging operations.",
-      confidence: 78
-    }
-  ],
-  nationalSummary: "Critical weather systems are converging. Immediate preemptive deployment required for coastal and flood-prone metropolitan areas."
-};
-
 export async function generatePredictionReasoning(
   riskResults: CityRiskScore[],
   apiKey: string
 ): Promise<GeminiPredictionResponse> {
   const systemPrompt = `You are TranaAI's Prediction Engine for India disaster management. You analyze weather data and risk scores to generate actionable pre-disaster briefings for field commanders. Be precise, use numbers, avoid vague language. Always mention timeframe.`;
+
+  // Dynamically generate mock response based on actual risk results
+  const top3 = riskResults.slice(0, 3);
+  const MOCK_PREDICTION_RESPONSE: GeminiPredictionResponse = {
+    topThreats: top3.map(z => ({
+      city: z.cityName,
+      threat: z.primaryThreat !== "low" ? z.primaryThreat : "severe vulnerability",
+      reasoning: `Forecast indicates a high probability of severe conditions combining with infrastructure vulnerability in ${z.cityName}.`,
+      action: `Pre-deploy emergency response units and elevate critical supplies in ${z.cityName}.`,
+      confidence: Math.floor(Math.random() * 10) + 85 // Random confidence between 85-94
+    })),
+    nationalSummary: `Critical weather systems are converging. Immediate preemptive deployment required for ${top3.map(z=>z.cityName).join(', ')}.`
+  };
 
   const userPrompt = `Based on 72-hour forecast data, here are risk scores for Indian cities:
 ${JSON.stringify(riskResults, null, 2)}
