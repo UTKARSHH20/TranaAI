@@ -12,22 +12,22 @@ export const callGemini = async (apiKey, prompt) => {
   if (match2) topZones[1] = match2[1];
   if (match3) topZones[2] = match3[1];
 
-  const MOCK_AI_PRIORITY_RESPONSE = \`## 🔴 Risk Assessment
-Current analysis indicates an extreme escalation in multiple zones. \${topZones[0]} is at CRITICAL risk due to severe conditions exacerbating infrastructure collapse. \${topZones[1]} and \${topZones[2]} are at HIGH risk from rising threats affecting dense populations.
+  const MOCK_AI_PRIORITY_RESPONSE = `## 🔴 Risk Assessment
+Current analysis indicates an extreme escalation in multiple zones. ${topZones[0]} is at CRITICAL risk due to severe conditions exacerbating infrastructure collapse. ${topZones[1]} and ${topZones[2]} are at HIGH risk from rising threats affecting dense populations.
 
 ## ⚠️ Priority Zones
-1. **\${topZones[0]}** — Highest priority score based on current weights. Immediate intervention required.
-2. **\${topZones[1]}** — Secondary priority due to high population and resource gaps. 
-3. **\${topZones[2]}** — Tertiary priority. Rapid deterioration expected without support.
+1. **${topZones[0]}** — Highest priority score based on current weights. Immediate intervention required.
+2. **${topZones[1]}** — Secondary priority due to high population and resource gaps. 
+3. **${topZones[2]}** — Tertiary priority. Rapid deterioration expected without support.
 
 ## 🚑 Resource Allocation Plan
 Deploy the 50 available volunteers as follows:
-- **\${topZones[0]}:** 25 volunteers (Focus: Immediate evacuation and triage)
-- **\${topZones[1]}:** 15 volunteers (Focus: Perimeter securing and relief supply)
-- **\${topZones[2]}:** 10 volunteers (Focus: Early warning coordination)
+- **${topZones[0]}:** 25 volunteers (Focus: Immediate evacuation and triage)
+- **${topZones[1]}:** 15 volunteers (Focus: Perimeter securing and relief supply)
+- **${topZones[2]}:** 10 volunteers (Focus: Early warning coordination)
 
 ## 🧠 Strategic Insight
-**Establish immediate supply corridors to \${topZones[0]}.** The rapid severity trend indicates a narrow window for preemptive evacuation. Pre-position heavy lifting equipment near \${topZones[1]} and \${topZones[2]} to mitigate incoming blockages.\`;
+**Establish immediate supply corridors to ${topZones[0]}.** The rapid severity trend indicates a narrow window for preemptive evacuation. Pre-position heavy lifting equipment near ${topZones[1]} and ${topZones[2]} to mitigate incoming blockages.`;
   if (DEMO_MODE) {
     // Simulate network delay for realism
     await new Promise(resolve => setTimeout(resolve, 1500));
