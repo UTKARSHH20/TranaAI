@@ -28,7 +28,7 @@
 <br/><br/>
 
 <!-- Live Demo CTA -->
-<a href="https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/">
+<a href="https://69f09895e9bcfc5d693b3ca3--tiny-shortbread-d734c4.netlify.app/">
   <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Launch_Command_Center-22c55e?style=for-the-badge&logoColor=white" height="45" />
 </a>
 &nbsp;&nbsp;
@@ -38,7 +38,7 @@
 
 <br/>
 
-> 🔗 **`https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/`**
+> 🔗 **`https://69f09895e9bcfc5d693b3ca3--tiny-shortbread-d734c4.netlify.app/`**
 
 </div>
 
@@ -77,7 +77,7 @@
 
 | Step | Action | Result |
 |:----:|--------|--------|
-| **1** | Open [live demo link](https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/) | 🌐 Landing page loads |
+| **1** | Open [live demo link](https://69f09895e9bcfc5d693b3ca3--tiny-shortbread-d734c4.netlify.app/) | 🌐 Landing page loads |
 | **2** | Click **"Launch Dashboard"** | 🎬 Cinematic entry animation |
 | **3** | Click **"Run AI Allocation"** | 🗺️ Deployment lines appear on map |
 | **4** | Paste your [free Gemini key](https://aistudio.google.com/) | 🤖 AI analysis unlocks |
